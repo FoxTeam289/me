@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <script src="https://kit.fontawesome.com/ebe406cecf.js" crossorigin="anonymous"></script>
+
+        <title>Даниил Павлов Frontend Developer</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="https://t.me/daniil_kwork" class="nav__logo">Даниил</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Главная</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Умения</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Мои проекты</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Связаться со мной</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='fa-solid fa-bars'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Здравствуйте,<br>Я <span class="home__title-color">Даниил</span><br> Frontend Dev</h1>
+
+                    <a href="#contact" class="button">Связаться</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://t.me/daniil_kwork" class="home__social-icon"><i class='fa-brands fa-telegram' ></i></a>
+                    <a href="https://github.com/FoxTeam289" class="home__social-icon"><i class='fa-brands fa-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="img/avatar.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Обо мне</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="img/aboout.jpeg" alt="Обо мне">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Я Даниил</h2>
+                        <p class="about__text">Я занимаюсь фронтенд разработкой с 10 лет. Чаще всего, работаю на тильде. Более 3-х лет работаю с SEO. Очень люблю программировать, так как мне очень нравится создавать свои проекты и помогать другим людям.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Умения</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Профессиональные умения</h2>
+                        <p class="skills__text">Больше всего знаком с</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-html5'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">99%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-css3'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-brands fa-square-js' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fa-solid fa-magnifying-glass'></i>
+                                <span class="skills__name">SEO</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Популярные проекты, созданные мной/связанные со мной</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://mushfind.ru/" class="work__img">
+                        <img src="img/mushfind.jpg" alt="Mushfind">
+                    </a>
+                    <a href="https://gki-webik.ru/" class="work__img">
+                        <img src="img/testinwebik.jpg" alt="">
+                    </a>
+                    <a href="https://projectpp.ru/" class="work__img">
+                        <img src="img/logo_pipi.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <main>
+                <section class="contact section" id="contact">
+                    <h2 class="section-title">Связаться со мной</h2>
+                    <div class="contact__container bd-grid">
+                        <form action="" class="contact__form">
+                            <input type="text" placeholder="Имя" class="contact__input" id="name">
+                            <input type="email" placeholder="Почта" class="contact__input" id="email">
+                            <textarea placeholder="Ваше сообщение..." cols="0" rows="10" class="contact__input" id="message"></textarea>
+                            <input type="button" value="Отправить" class="contact__button button" id="sendButton">
+                            <div class="success-message" id="successMessage"><i class="fas fa-check"></i> Успешно!</div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <script src="form-handler.js"></script>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Даниил</p>
+            <div class="footer__social">
+                <a href="t.me/daniil_kwork" class="footer__icon"><i class='fa-brands fa-telegram' ></i></a>
+                    <a href="https://github.com/FoxTeam289" class="footer__icon"><i class='fa-brands fa-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Все права защищены</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
