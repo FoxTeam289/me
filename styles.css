@@ -309,16 +309,47 @@ img {
 .work__container {
   row-gap: 2rem;
 }
+.work__item {
+  text-align: center;
+}
 .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  position: relative;
+}
+.work__title {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  transition: 1s;
+}
+.work__icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  opacity: 0;
+  transition: 0.5s;
 }
 .work__img img {
   transition: 1s;
 }
-.work__img img:hover {
+.work__img:hover img {
   transform: scale(1.1);
+}
+.work__img:hover ~ .work__icons {
+  opacity: 1;
+}
+.work__legend {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.work__legend div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 /* ===== CONTACT =====*/
