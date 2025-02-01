@@ -298,8 +298,20 @@ img {
 .skills__js {
   width: 60%;
 }
+.skills__ts {
+  width: 40%;
+}
+.skills__php {
+  width: 30%;
+}
 .skills__ux {
   width: 99%;
+}
+.skills__sass {
+  width: 80%;
+}
+.skills__js {
+  width: 35%;
 }
 .skills__img {
   border-radius: 0.5rem;
