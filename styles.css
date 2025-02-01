@@ -304,8 +304,11 @@ img {
 .skills__php {
   width: 30%;
 }
-.skills__ux {
-  width: 99%;
+.skills__es {
+  width: 35%;
+}
+.skills__js {
+  width: 60%;
 }
 .skills__sass {
   width: 80%;
